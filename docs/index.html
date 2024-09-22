@@ -12,7 +12,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <script src="vega_lite_vis.js"></script>
 </head>
 <body>
     <h1>FIT3179 Data Visualisation Semester 2, 2024</h1>
@@ -23,6 +22,13 @@
         Studio: 7, Friday 2p.m.<br/>
         Date: 22th September 2024
     </p>
-    <div id="map_chart"></div>
+    <div id="map_chart">
+        <script>
+            var vg_1 = "homework_week9.vg.json";
+            vegaEmbed("#map_chart", vg_1).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+        </script>
+    </div>
 </body>
 </html>
