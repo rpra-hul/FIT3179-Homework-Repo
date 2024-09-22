@@ -28,7 +28,7 @@
     "mark": {
       "type": "geoshape",
       "stroke": "#333",
-        "strokeWidth": 1.0
+      "strokeWidth": 1.0
     },
     "encoding": {
       "color": {
@@ -36,8 +36,8 @@
         "type": "quantitative",
         "scale":  { 
             "type": "threshold", 
-            "domain": [0, 100000, 500000, 1000000, 2000000, 3000000, 4000000, 5000000], 
-            "range": ["#f7f7f7", "#d9f0a3", "#addd8e", "#78c679", "#41ab5d", "#238443", "#005a32", "#00441b"]
+            "domain": [0, 100000, 500000, 1000000, 2000000, 3000000, 4000000], 
+            "range": ["#f0f9e8", "#ccebc5", "#a8ddb5", "#7bccc4", "#4eb3d3", "#2b8cbe", "#08589e"]
         },
         "legend": {
           "title": "Area (Hectares)",
